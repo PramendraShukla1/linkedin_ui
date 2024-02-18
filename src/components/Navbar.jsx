@@ -34,14 +34,14 @@ const Navbar = () => {
             <AiFillHome className="lg:text-3xl text-2xl" />
             <p className="lg:flex hidden">Home</p>
           </Link>
-          <Link to={'/mynetwork'} className="flex items-center flex-col cursor-pointer hover:text-black  text-gray-600">
+          <Link to={'/mynetwork/'} className="flex items-center flex-col cursor-pointer hover:text-black  text-gray-600">
             <FaUserFriends className="lg:text-3xl text-2xl" />
             <p className="lg:flex hidden">My Network</p>
           </Link>
-          <div className="flex items-center flex-col  text-gray-600">
+          <Link to={'/jobs/'} className="flex items-center flex-col cursor-pointer hover:text-black  text-gray-600">
             <BsSuitcaseLgFill className="lg:text-3xl text-2xl" />
-            <p className="lg:flex hidden">Jobs</p>
-          </div>
+            <p  className="lg:flex hidden">Jobs</p>
+          </Link>
           <div className="flex items-center flex-col  text-gray-600">
             <RiMessage2Fill className="lg:text-3xl text-2xl" />
             <p className="lg:flex hidden">Messaging</p>
@@ -51,10 +51,7 @@ const Navbar = () => {
             <p className="lg:flex hidden">Notifications</p>
           </div>
 
-          <div className="flex items-center flex-col  text-gray-600">
-            <BsThreeDots className="lg:text-3xl text-2xl" />
-            <p className="lg:flex hidden">Notifications</p>
-          </div>
+         
 
           <div className="lg:flex hidden items-center flex-col text-gray-600 border-r pr-10">
             <img

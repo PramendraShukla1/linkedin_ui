@@ -1,7 +1,7 @@
 import React from "react";
-import profile from "../assets/profile_pic.png";
-import cover from "../assets/1706369374091.jpeg";
-import linkedinGold from "../assets/1631003932486.jpeg";
+import profile from "../../assets/profile_pic.png"
+import cover from "../../assets/1706369374091.jpeg";
+import linkedinGold from "../../assets/1631003932486.jpeg";
 import { PiTagFill } from "react-icons/pi";
 import { FaPeopleGroup } from "react-icons/fa6";
 import { BsCalendarEvent } from "react-icons/bs";
