@@ -10,7 +10,8 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 
 const LeftNetwork = () => {
   return (
-    <div className="h-fit w-1/4 rounded-xl bg-white shadow-lg flex flex-col">
+    <div className="h-fit lg:w-1/4 w-fu
+     rounded-xl bg-white shadow-lg flex flex-col">
       <div className="p-5 pb-0">
         <h1 className="text-2xl font-normal text-gray-700">
           Manage my network
@@ -91,7 +92,7 @@ const LeftNetwork = () => {
       </div>
       <hr className="" />
 
-      <div className="p-20 pt-5 pb-5 text-gray-500 flex flex-row flex-wrap gap-5 justify-center">
+      <div className="lg:p-20 p-10 pt-5 pb-5 text-gray-500 flex flex-row flex-wrap gap-5 justify-center">
         <p>About</p>
         <p>Accessibility</p>
         <p>Help Center</p>

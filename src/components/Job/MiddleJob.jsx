@@ -11,7 +11,7 @@ import { LuDot } from "react-icons/lu";
 
 const MiddleJob = () => {
   return (
-    <div className="flex flex-col  gap-5 w-[600px] justify-start">
+    <div className="flex flex-col  gap-5 lg:w-[600px] w-full justify-start">
       <div className="h-full border w-full rounded-lg shadow-md bg-white p-5">
         <div className=" h-20 flex flex-col gap-1">
           <p className="font-semibold text-xl">Recommended for you</p>

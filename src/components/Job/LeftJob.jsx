@@ -10,7 +10,7 @@ import { MdOutlineEditNote } from "react-icons/md";
 
 const LeftJob = () => {
   return (
-    <div className="flex flex-col  gap-5 w-72 justify-start">
+    <div className="flex flex-col  gap-5 lg:w-72 w-full justify-start mt-5 lg:mt-0">
       <div className="h-fit border w-full rounded-lg shadow-md bg-white">
         <div className="p-5 pt-10 pb-10 flex flex-col gap-10">
           <div className="flex justify-start items-center gap-5 text-gray-700">

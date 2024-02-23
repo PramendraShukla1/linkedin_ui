@@ -12,14 +12,14 @@ import news6 from "../../assets/newsletter6.jpeg";
 
 const RightNetwork = () => {
   return (
-    <div className=" h-fit w-3/4">
+    <div className=" h-fit lg:w-3/4 w-full">
       <div className="bg-white h-16 flex justify-between items-center p-2 rounded-xl shadow-lg">
         <p className="text-xl text-gray-700">No pending invitations</p>
         <p className="text-xl text-gray-500 font-semibold">Manage</p>
       </div>
       <div className="w-full h-full bg-white rounded-xl mt-8 shadow-lg p-5 pt-2">
         <div className="h-14 flex items-center justify-between text-xl">
-          <p className="text-gray-800">
+          <p className="text-gray-800 ">
             People you may know in Greater Delhi Area
           </p>
           <p className="text-gray-600 font-semibold">See all</p>

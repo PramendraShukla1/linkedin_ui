@@ -11,8 +11,8 @@ import { PiDotsThreeOutlineFill } from "react-icons/pi";
 
 const MiddleNotification = () => {
   return (
-    <div className="min-w-[600px] lg:w-1/2 h-full rounded-xl flex gap-5 flex-col">
-      <div className="bg-white h-16 rounded-xl justify-start flex items-center gap-5 p-3">
+    <div className="lg:min-w-[600px] min-w-full lg:w-1/2 h-full w-full rounded-xl flex gap-5 flex-col">
+      <div className="bg-white lg:h-16 h-full rounded-xl justify-start flex items-center gap-5 p-3">
         <button className="border rounded-full p-2 pl-5 pr-5 text-white font-semibold bg-green-800 cursor-not-allowed">
           All
         </button>
@@ -53,7 +53,7 @@ const MiddleNotification = () => {
                 <div className="flex h-full items-center">
                   <p className="h-full text-sm w-full">
                     Created this beautiful UI of Microsoft Outlook using vite
-                    and Tailwind CSS, It is optimized...
+                    and...
                   </p>
                 </div>
               </div>
@@ -66,21 +66,19 @@ const MiddleNotification = () => {
         </div>
         <div className="justify-between flex gap-2 items-center">
           <div className=" mt-3 h-fit w-full flex">
-            <div className="w-1/6 h-full flex justify-center">
+            <div className="lg:w-1/6 w-28 h-full flex justify-center">
               <img
                 src={notification1}
                 alt=""
                 className="w-14 h-14 object-cover "
               />
             </div>
-            <div className="w-full">
+            <div className=" w-full">
               <div className="flex justify-between">
                 <p className="text-base">
                   <span className="font-semibold">Deloitte </span>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Facilis minus placeat iste asperiores a consequatur quisquam
-                  ducimus ea dolor nulla ullam dolores, exercitationem sit
-                  tenetur fuga assumenda vitae ...
+                  Facilis minus placeat iste asperiores...
                 </p>
                 <div>
                   <p className="text-sm text-gray-500">1d</p>
@@ -93,7 +91,7 @@ const MiddleNotification = () => {
 
         <div className="justify-between flex gap-2 items-center">
           <div className=" mt-3 h-fit w-full flex">
-            <div className="w-1/6 h-full flex justify-center">
+            <div className="lg:w-1/6 w-28 h-full flex justify-center">
               <img
                 src={notification2}
                 alt=""
@@ -105,9 +103,7 @@ const MiddleNotification = () => {
                 <p className="text-base">
                   <span className="font-semibold">Infosys </span>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Facilis minus placeat iste asperiores a consequatur quisquam
-                  ducimus ea dolor nulla ullam dolores, exercitationem sit
-                  tenetur fuga assumenda vitae ...
+                  Facilis minus placeat ...
                 </p>
                 <div>
                   <p className="text-sm text-gray-500">1d</p>
@@ -122,7 +118,7 @@ const MiddleNotification = () => {
 
         <div className="justify-between flex gap-2 items-center">
           <div className=" mt-3 h-fit w-full flex">
-            <div className="w-1/6 h-full flex justify-center">
+            <div className="lg:w-1/6 w-28 h-full flex justify-center">
               <img
                 src={notification3}
                 alt=""
@@ -134,9 +130,7 @@ const MiddleNotification = () => {
                 <p className="text-base">
                   <span className="font-semibold">Deloitte </span>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Facilis minus placeat iste asperiores a consequatur quisquam
-                  ducimus ea dolor nulla ullam dolores, exercitationem sit
-                  tenetur fuga assumenda vitae ...
+                  Facilis minus placeat iste...
                 </p>
                 <div>
                   <p className="text-sm text-gray-500">1d</p>
@@ -150,7 +144,7 @@ const MiddleNotification = () => {
 
         <div className="justify-between flex gap-2 items-center">
           <div className=" mt-3 h-fit w-full flex">
-            <div className="w-1/6 h-full flex justify-center">
+            <div className="lg:w-1/6 w-28 h-full flex justify-center">
               <img
                 src={notification4}
                 alt=""
@@ -162,9 +156,7 @@ const MiddleNotification = () => {
                 <p className="text-base">
                   <span className="font-semibold">Google </span>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Facilis minus placeat iste asperiores a consequatur quisquam
-                  ducimus ea dolor nulla ullam dolores, exercitationem sit
-                  tenetur fuga assumenda vitae ...
+                  Facilis minus placeat...
                 </p>
                 <div>
                   <p className="text-sm text-gray-500">1d</p>
@@ -179,7 +171,7 @@ const MiddleNotification = () => {
 
         <div className="justify-between flex gap-2 items-center">
           <div className=" mt-3 h-fit w-full flex">
-            <div className="w-1/6 h-full flex justify-center">
+            <div className="lg:w-1/6 w-28 h-full flex justify-center">
               <img
                 src={notification5}
                 alt=""
@@ -191,9 +183,7 @@ const MiddleNotification = () => {
                 <p className="text-base">
                   <span className="font-semibold">Deloitte </span>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Facilis minus placeat iste asperiores a consequatur quisquam
-                  ducimus ea dolor nulla ullam dolores, exercitationem sit
-                  tenetur fuga assumenda vitae ...
+                  Facilis minus placeat iste...
                 </p>
                 <div>
                   <p className="text-sm text-gray-500">1d</p>
@@ -208,7 +198,7 @@ const MiddleNotification = () => {
 
         <div className="justify-between flex gap-2 items-center">
           <div className=" mt-3 h-fit w-full flex">
-            <div className="w-1/6 h-full flex justify-center">
+            <div className="lg:w-1/6 w-28 h-full flex justify-center">
               <img
                 src={notification6}
                 alt=""
@@ -220,9 +210,7 @@ const MiddleNotification = () => {
                 <p className="text-base">
                   <span className="font-semibold">JP Morgan Chase </span>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Facilis minus placeat iste asperiores a consequatur quisquam
-                  ducimus ea dolor nulla ullam dolores, exercitationem sit
-                  tenetur fuga assumenda vitae ...
+                  Facilis minus placeat iste...
                 </p>
                 <div>
                   <p className="text-sm text-gray-500">1d</p>

@@ -5,7 +5,7 @@ import sita from "../../assets/sita.jpeg";
 
 const RightNotification = () => {
   return (
-    <div className="w-1/5 h-fit rounded-xl p-2">
+    <div className="lg:w-1/5 w-full h-fit rounded-xl lg:p-2 p-0">
       <div className="w-full bg-white h-fit border rounded-xl p-2">
         <div className="flex items-center gap-2 text-gray-600 text-sm justify-end">
           <p>Ad</p>
