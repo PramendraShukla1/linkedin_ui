@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Layout from './utils/Layout'
 import MyNetwork from "./pages/MyNetwork"
 import Jobs from './pages/Jobs'
+import Notification from './pages/Notification'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
     <Route path='/' index element={<Home/>}/>
     <Route path='/mynetwork/' element={<MyNetwork/>}/>
     <Route path='/jobs/' element={<Jobs/>}/>
+    <Route path='/notifications/' element={<Notification/>}/>
   </Route>
 </Routes>
 </BrowserRouter>

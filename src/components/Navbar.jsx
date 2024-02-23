@@ -9,7 +9,6 @@ import { GoBellFill } from "react-icons/go";
 import { IoAppsSharp } from "react-icons/io5";
 import { GoGoal } from "react-icons/go";
 import { IoMdArrowDropdown } from "react-icons/io";
-import { BsThreeDots } from "react-icons/bs";
 import profile from "../assets/profile_pic.png";
 import { Link } from "react-router-dom";
 
@@ -30,28 +29,38 @@ const Navbar = () => {
           <IoMdSearch className="text-2xl text-gray-600 ml-3 lg:hidden flex" />
         </div>
         <div className="flex lg:gap-10 gap-7 items-center">
-          <Link to={'/'} className="flex items-center hover:text-black flex-col ">
+          <Link
+            to={"/"}
+            className="flex items-center hover:text-black flex-col "
+          >
             <AiFillHome className="lg:text-3xl text-2xl" />
             <p className="lg:flex hidden">Home</p>
           </Link>
-          <Link to={'/mynetwork/'} className="flex items-center flex-col cursor-pointer hover:text-black  text-gray-600">
+          <Link
+            to={"/mynetwork/"}
+            className="flex items-center flex-col cursor-pointer hover:text-black  text-gray-600"
+          >
             <FaUserFriends className="lg:text-3xl text-2xl" />
             <p className="lg:flex hidden">My Network</p>
           </Link>
-          <Link to={'/jobs/'} className="flex items-center flex-col cursor-pointer hover:text-black  text-gray-600">
+          <Link
+            to={"/jobs/"}
+            className="flex items-center flex-col cursor-pointer hover:text-black  text-gray-600"
+          >
             <BsSuitcaseLgFill className="lg:text-3xl text-2xl" />
-            <p  className="lg:flex hidden">Jobs</p>
+            <p className="lg:flex hidden">Jobs</p>
           </Link>
           <div className="flex items-center flex-col  text-gray-600">
             <RiMessage2Fill className="lg:text-3xl text-2xl" />
             <p className="lg:flex hidden">Messaging</p>
           </div>
-          <div className="flex items-center flex-col  text-gray-600">
+          <Link
+            to={"/notifications/"}
+            className="flex items-center flex-col cursor-pointer hover:text-black  text-gray-600"
+          >
             <GoBellFill className="lg:text-3xl text-2xl" />
             <p className="lg:flex hidden">Notifications</p>
-          </div>
-
-         
+          </Link>
 
           <div className="lg:flex hidden items-center flex-col text-gray-600 border-r pr-10">
             <img
